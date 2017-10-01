@@ -62,8 +62,5 @@
   <ItemGroup>
     <None Include="Resources\ShakeAndRollDiceSound.wav" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="ReadMe.md" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
