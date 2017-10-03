@@ -20,8 +20,8 @@ namespace DiceRoll
 
             do
             {
-                Console.WriteLine("Dice 1 is rolled a: {0}", RollDie());
-                Console.WriteLine("Dice 2 is rolled a: {0}", RollDie());
+                Console.WriteLine("Dice 1 is rolled: {0}", RollDie());
+                Console.WriteLine("Dice 2 is rolled: {0}", RollDie());
                 Console.WriteLine("\nPress enter to roll again or type q for quit");
 
             } while (Console.ReadLine() == "q");
